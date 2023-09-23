@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sora&family=Vidaloka&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+/* Estilo Header */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  background-image: url("./assets/pizza_back.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+h1{
+  color: #ffffff;
+  font-size: 102px;
+  letter-spacing: 2px;
+}
+/* Estilo Main */
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height:85vh;
+}
+h2{
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin: 30px;
+}
+.caixaMostraPizza{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 26vh;
+  width: 30vw;
+}
+section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 40vh;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 15vw;
+  height: 32vh;
+  border-radius: 20px;
+  background-color: #FEF6F4;
+  border:solid 3px
+}
+button{
+  border-radius: 30px;
+  background-color: #FFA200;
+  border: none;
+  width: 10vw;
+  height: 5vh;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(108%);
+}
